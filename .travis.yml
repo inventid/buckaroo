@@ -9,12 +9,11 @@ notifications:
   email: false
   hipchat:
     rooms:
-      secure: Fy5h7jAdkiJJFGu6wwY5MLw3njmfMPMIDdFdaTLH944OX8U8+n0IJ7QBtURx8HWRVjGN78cJRcsur7AJpti+gc0glFaZeP+WaR7ufpk+F9/NU+L/2N8tV2bdOoZ25r0kS8JzoJCdSEw23tNxTpbeg8Y0h7Xq6cPVWGbCvym5t4U=
-      template:
-      - "%{repository}#%{build_number} (%{branch} - %{commit} - %{commit_message}
-        : %{author}): %{message}"
+      secure: IiZp/qFD7GtkXm2OYVdzr+sPo/myu79rFEKhO/Dg5d5dkruERZz1pfZ8xUrGz3JNEEl+wviMUx/FwY3n9odX2uCzFbqytjX87AMqx9F0kUNi5ze0pLdShnh5xQC5oq5g489rH+0W4AXRUD0dLM+At01AbVnTkzKaYq3/oPHJUYM=
+    template:
+      - '%{repository}#%{build_number} (%{branch} - %{commit} - %{commit_message} : %{author}): %{message}'
 env:
   global:
-  - secure: OJX4EHy+31vcrxt2Eoibw6zpS28BmtMhwjGIDTP0GVxuhFtyCAfta+yRdrbUi/prUc6MNZWXkLn1YgyuVRj9LB1rstpBmnH2ozXtCOypW331eunjqM7wAqrS2+2o1Yy58nDzo2CraOxI2LtdNzQnajUjxWlBPpX7HKYIKomtoqc=
-  - secure: T8XipJXBUuPArbZ/nEac3cPM6Vya3eoQ8NBQhQebFNBbmpMQLJOHQgh7s+D+1BJjDXSl62XOzrTTvT5B/LILihaNx3kJkImpuEzdhrUdfMNcBkHWDqgrsXh7ZbtW46Y7Wusjfm14YU8mE9NwydAOfSNK3DNWcDBylTiwz/3mpJY=
-  - secure: akGaqflSA4rByg5xYOrjVq468elX1u26o9coUJKaDOffJQFHu4PfXr2lZzY2AtpO6LuSi1rMtjFgv7rSBWTohGkxrWQJPgLmo+14hcpmtY7Ei3oqfGupLWtBb/oAILljVKT4EbIt3BSWc/7P5LL5VXw5OtuJGt3w1OJosHhsreM=
+  - secure: XLpikaYlecYiZUUPjedPpgItraL5auslJwyhJn5Fzrfz3whlcqg4r9ZHZrWay4pVc75RyevZ33f1gzQ8KS6B943OvbePQTTNnq61dj+KIyt+tdv/RPrN7JJTn86XqUuPJlp1RWHwCCfSHjQjhSKabPUpBaUOght8H+tTaSs6e8s=
+  - secure: fAG930g2TUvNnb570xpplp8FFL6M/G3MubiVziG0b0Zz0N9+0sR/oNQu6xYrbxvgeuCJvCzWalxVxE9uSJVMr/L6NhpIRoNyrdVmy4NWblfsL9yjoDnJU1ZiVGmF9lskm7WaG/ZVOJO+aAV1RHvZRVCOXetmkeYftDNIv0/+B3g=
+  - secure: VK8oZxOhAlmVNtXCQ3tOWqJxQMRB2ILTf0egpyIzRheFZpBNI7Qzn85MNB6FgLvm7o4kA76OzuqDMc7xvlaSaQ0if5F5Ts8HVK89Ak7Oydl0Xo9m3Xf2xuxHJfl93dtGljvoz8VVXdqN73ampr19dM7n56H+IZnQMlW57fSJGUQ=
