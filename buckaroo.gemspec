@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.description  = %q{Buckaroo payment gateway (see http://www.buckaroo.nl)}
   s.summary      = %q{Buckaroo payment gateway}
   s.email        = %q{rogier@inventid.nl}
-
+  s.licenses	 = ['MIT']
   s.homepage     = %q{http://opensource.inventid.nl/buckaroo}
 
   s.extra_rdoc_files = [
